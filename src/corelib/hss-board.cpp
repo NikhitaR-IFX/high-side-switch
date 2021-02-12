@@ -436,7 +436,11 @@ float HssBoard::readVss()
     float voltage = 0.0;
     
     adcResult = vBat->ADCRead();
-    voltage = adcResult * ((float)5/(float)1024);  // Vmax/1024 LSB = Resolution of the ADC, 57/10 = Reverse Voltage devider to get the Supplyvoltage
+    #ifdef XMC4700_Relax_Kit
+    voltage = adcResult * ((float)3.3/(float)1024); // Vmax/1024 LSB = Resolution of the ADC, 57/10 = Reverse Voltage devider to get the Supplyvoltage
+    #else
+    voltage = adcResult * ((float)5/(float)1024); // Vmax/1024 LSB = Resolution of the ADC, 57/10 = Reverse Voltage devider to get the Supplyvoltage
+    #endif
     voltage = (voltage - vBatOffset) * vBatGain;
     voltage = voltage * ((float)57/(float)10);
 

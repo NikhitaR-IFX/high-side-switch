@@ -245,7 +245,11 @@ float Hss::readIs()
     if(diagEnb == DIAG_EN){
         timer->delayMilli(1);                                                       //wait for 1ms to ensure that the Profet will provide a valid sense signal
         AnalogDigitalConverterResult = is->ADCRead();
+        #ifdef XMC4700_Relax_Kit
+        amps = ((float)AnalogDigitalConverterResult/(float)1024) * (float)3.3;
+        #else
         amps = ((float)AnalogDigitalConverterResult/(float)1024) * (float)5;
+        #endif
         amps = (amps * btsVariant->kilis)/1000;
         amps = (amps - btsVariant->ampsOffset) * btsVariant->ampsGain;
         currentFilter->input(amps);

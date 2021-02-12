@@ -98,7 +98,10 @@ void loop()
         Serial.println(" on");
 
         Serial.println("Reading the current and diagnosis status of this switch ...");
-        readAmps = HSS.readIsx(counter);
+        for(int i = 0; i < 10; i++){
+            readAmps += HSS.readIsx(counter);
+        }
+        readAmps = readAmps / 10;
         Serial.print("Current flowing through the switch: ");
         Serial.print(readAmps);Serial.println(" A");
 
@@ -106,7 +109,10 @@ void loop()
         Serial.print("Diagnosis status of the switch: ");
         Serial.println(switchStatus);
 
-        batteryVoltage = HSS.readVss();
+        for(int i = 0; i < 10; i++){
+            batteryVoltage += HSS.readVss();
+        }
+        batteryVoltage = batteryVoltage / 10;
         Serial.print("Current battery voltage : ");
         Serial.print(batteryVoltage);Serial.println(" V\n");
 
@@ -119,7 +125,10 @@ void loop()
         Serial.println(" off");
 
         Serial.println("Reading the current and diagnosis status of this switch ...");
-        readAmps = HSS.readIsx(counter - 4);
+        for(int i = 0; i < 10; i++){
+            readAmps += HSS.readIsx(counter - 4);
+        }
+        readAmps = readAmps / 10;
         Serial.print("Current flowing through the switch: ");
         Serial.print(readAmps);Serial.println(" A");
 
@@ -127,7 +136,10 @@ void loop()
         Serial.print("Diagnosis status of the switch: ");
         Serial.println(switchStatus);
 
-        batteryVoltage = HSS.readVss();
+        for(int i = 0; i < 10; i++){
+            batteryVoltage += HSS.readVss();
+        }
+        batteryVoltage = batteryVoltage / 10;
         Serial.print("Current battery voltage : ");
         Serial.print(batteryVoltage);Serial.println(" V\n");
 

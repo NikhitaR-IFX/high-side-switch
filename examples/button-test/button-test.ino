@@ -52,7 +52,10 @@ void loop()
 
     if(HSS.digitalReadButton() && button_pressed = false){
         button_pressed = true;
-        voltage = HSS.readVss();
+        for(int i = 0; i < 10; i++){
+            voltage += HSS.readVss();
+        }
+        voltage = voltage / 10;     // Taking the mean value of several measurements for higher accuracy
         Serial.print("Supply voltage is: ");
         Serial.println(voltage);
     }
