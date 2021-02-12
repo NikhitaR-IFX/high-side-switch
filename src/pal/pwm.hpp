@@ -1,5 +1,5 @@
 /** 
- * @file        PWM.hpp
+ * @file        pwm.hpp
  * @brief       PWM Platform Abstraction Layer
  * @date        May 2020
  * @copyright   Copyright (c) 2019-2020 Infineon Technologies AG
@@ -70,7 +70,7 @@ class PWM
          * @retval  OK if success
          * @retval  INIT_ERROR if hardware interface error
          */
-        virtual  Error_t        disable    (uint32_t &elapsed) = 0;
+        virtual  Error_t        disable    () = 0;
 };
 
 /** @} */
