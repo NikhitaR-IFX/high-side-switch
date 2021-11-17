@@ -1,0 +1,10 @@
+<map id="Bts700xShield" name="Bts700xShield">
+<area shape="rect" id="node1" title=" " alt="" coords="367,319,482,345"/>
+<area shape="rect" id="node2" href="$da/d60/classHssShield.html" title="High&#45;Side&#45;Switch&#45;Board Class This class is the base class for the PROFET&#45;Shield with all it&#39;s functio..." alt="" coords="5,155,92,181"/>
+<area shape="rect" id="node3" href="$d3/d68/classAnalogDigitalConverter.html" title=" " alt="" coords="64,5,239,32"/>
+<area shape="rect" id="node5" href="$de/d7e/classHss.html" title="High&#45;Side&#45;Switch class This class defines the High&#45;Side&#45;Switch Class with all its functionality." alt="" coords="401,155,448,181"/>
+<area shape="rect" id="node4" href="$d1/da7/classExponentialFilter.html" title=" " alt="" coords="283,5,415,32"/>
+<area shape="rect" id="node6" href="$d7/dde/classGPIO.html" title=" " alt="" coords="493,5,548,32"/>
+<area shape="rect" id="node7" href="$dc/dea/classTimer.html" title=" " alt="" coords="600,5,660,32"/>
+<area shape="rect" id="node8" href="$d1/dcd/structBtsVariants__t.html" title="Structure for the differen types of the BTS700x It contains all important parameters for the correct ..." alt="" coords="732,155,840,181"/>
+</map>

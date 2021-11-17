@@ -1,0 +1,9 @@
+<map id="HssShield" name="HssShield">
+<area shape="rect" id="node1" title="High&#45;Side&#45;Switch&#45;Board Class This class is the base class for the PROFET&#45;Shield with all it&#39;s functio..." alt="" coords="196,5,283,32"/>
+<area shape="rect" id="node2" href="$d9/d9f/classBts500xxShield.html" title=" " alt="" coords="26,80,149,107"/>
+<area shape="rect" id="node4" href="$d6/d15/classBts700xShield.html" title=" " alt="" coords="182,80,297,107"/>
+<area shape="rect" id="node6" href="$de/dfd/classProfet24VBTTShield.html" title=" " alt="" coords="331,80,481,107"/>
+<area shape="rect" id="node3" href="$d6/d9d/classBts500xxShieldIno.html" title=" " alt="" coords="5,155,148,181"/>
+<area shape="rect" id="node5" href="$da/d27/classBts700xShieldIno.html" title=" " alt="" coords="172,155,307,181"/>
+<area shape="rect" id="node7" href="$d5/d04/classProfet24VBTTShieldIno.html" title=" " alt="" coords="331,155,502,181"/>
+</map>

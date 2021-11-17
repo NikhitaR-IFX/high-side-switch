@@ -1,0 +1,25 @@
+var classBts500xxShield =
+[
+    [ "Bts500xxShield", "d9/d9f/classBts500xxShield.html#aed606e0c5bdcab312607568342fb9868", null ],
+    [ "~Bts500xxShield", "d9/d9f/classBts500xxShield.html#ae06fe11fa6b208da007bc31e07870743", null ],
+    [ "init", "d9/d9f/classBts500xxShield.html#a45e1a326b7cef076cc1531939aafb30a", null ],
+    [ "deinit", "d9/d9f/classBts500xxShield.html#a2455e0f077452fc773c576541e4adae9", null ],
+    [ "switchHxOn", "d9/d9f/classBts500xxShield.html#ab957e1c5c918c82bbe347161833f663d", null ],
+    [ "switchHxOff", "d9/d9f/classBts500xxShield.html#a3ec6ea2f5b512dfac3b32ec2d473a608", null ],
+    [ "readDiagx", "d9/d9f/classBts500xxShield.html#adf8d1bd6466d82a60d06c2edaeda025b", null ],
+    [ "diagnosisOff", "d9/d9f/classBts500xxShield.html#a25b5824017f0086b4a57411d4a238ace", null ],
+    [ "readIsx", "d9/d9f/classBts500xxShield.html#a845a0b0dda950efd8b1f2b7425b96b58", null ],
+    [ "readVss", "d9/d9f/classBts500xxShield.html#a8d8c2869ff6490ca07ee560ff34a2ec6", null ],
+    [ "analogReadButton", "d9/d9f/classBts500xxShield.html#a2c0dbd11c27473882ddd9c8ecb9a1d7f", null ],
+    [ "getIs", "d9/d9f/classBts500xxShield.html#add48a0d91d5adc9522e8ec9456b814a8", null ],
+    [ "filterVbat", "d9/d9f/classBts500xxShield.html#a4aa9d10fbe0e4af8147477241e353022", null ],
+    [ "led1", "d9/d9f/classBts500xxShield.html#a2ceae66c2a7ec7e820e7f2965b2808b1", null ],
+    [ "led2", "d9/d9f/classBts500xxShield.html#a5d8dbda9ea0806aeb3e1b39d7a6411c2", null ],
+    [ "hss1", "d9/d9f/classBts500xxShield.html#a76b49217e5780ee0eb66904dc3943ea4", null ],
+    [ "timer", "d9/d9f/classBts500xxShield.html#a32e31127b246a1d1902c1321b62f6907", null ],
+    [ "pushButtonAnalog", "d9/d9f/classBts500xxShield.html#a23f290295473577ae28fabe6d670318e", null ],
+    [ "vBat", "d9/d9f/classBts500xxShield.html#aa88c9889c33dd0d64a5f750ff81832de", null ],
+    [ "btsVariant", "d9/d9f/classBts500xxShield.html#a55d50b56d9c59dec3a5e896be00b42a6", null ],
+    [ "vBatGain", "d9/d9f/classBts500xxShield.html#a4c4d1659b01ba4c1e506e8279c79baba", null ],
+    [ "vBatOffset", "d9/d9f/classBts500xxShield.html#a398a251a646f08d6cf8ba5a6b058f7a9", null ]
+];
