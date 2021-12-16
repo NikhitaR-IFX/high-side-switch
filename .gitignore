@@ -10,3 +10,4 @@ docs/doxygen/doxyfile_auto
 /docs/_build
 .pio/
 /workflow/
+docs/library-api-docs

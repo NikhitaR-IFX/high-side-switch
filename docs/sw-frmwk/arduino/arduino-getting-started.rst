@@ -33,11 +33,13 @@ Required Software
 * This library installed in the Arduino IDE, the instructions can be found `here <https://www.arduino.cc/en/guide/libraries>`__
 * When using an Arduino compatible XMC board, please find installation instructions `here <https://github.com/Infineon/XMC-for-Arduino#installation-instructions>`_.
 
+.. _`Arduino IDE`: https://www.arduino.cc/en/software
+
 Tutorial
 --------
 
 Software Installation
-"""""""""""""""""""""
+""""""""""""""""""""""
 
 1. **Install the Arduino IDE**. If you are new to Arduino, please `download <https://www.arduino.cc/en/Main/Software>`__ the program and install it first.
 
