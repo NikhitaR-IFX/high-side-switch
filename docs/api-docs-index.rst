@@ -23,7 +23,7 @@ Class Details
       - Class Name
       - Summary
     * - :code:`corelib`
-      - `Class I2CRpi <library-api-docs/class_hss_board.html>`__
+      - :ref:`exhale_class_class_hss`
       - High-Side-Switch main class with core functionalities
     * - 
       - :ref:`exhale_class_class_hss_board`
